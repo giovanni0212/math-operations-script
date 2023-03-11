@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math operations</title>
+</head>
+<body>
+    <p>hello world!</p>
+    <h4>hey universe!</h4>
+
+    <script>
+        firstNum = prompt('Type any number, please');
+        secondNum = prompt('Now type another one');
+        option = prompt('What type of operation you want to be executed: +  -  * or / ?');
+
+        if (option == '+') {
+            alert(`Here is the sum of the two numbers: ${firstNum} + ${secondNum} = ` + (+firstNum + +secondNum))
+            alert('Thanks for your time!');
+        }
+        else if (option == '*') {
+            alert(`Here is the product of the two numbers: ${firstNum} * ${secondNum} = ` + firstNum * secondNum)
+            alert('Thanks for your time!');
+        }
+        else if (option == '-') {
+            alert(`Here is the difference of the two numbers: ${firstNum} - ${secondNum} = ` + (+firstNum - +secondNum))
+            alert('Thanks for your time!');
+        }
+        else if (option == '/') {
+            alert(`Here is the quotient of the two numbers: ${firstNum} / ${secondNum} = ` + firstNum / secondNum)
+            alert('Thanks for your time!');
+        }
+        else {
+            alert('You did not choose any proper operation. \nPlz try again.');
+            option = prompt('What type of operation you want to be executed: +  -  * or / ?');
+
+            if (option == '+') {
+            alert(`Here is the sum of the two numbers: ${firstNum} + ${secondNum} = ` + (+firstNum + +secondNum))
+            alert('Thanks for your time!');
+            }
+            else if (option == '*') {
+            alert(`Here is the product of the two numbers: ${firstNum} * ${secondNum} = ` + firstNum * secondNum)
+            alert('Thanks for your time!');
+            }
+            else if (option == '-') {
+            alert(`Here is the difference of the two numbers: ${firstNum} - ${secondNum} = ` + (+firstNum - +secondNum))
+            alert('Thanks for your time!');
+            }
+            else if (option == '/') {
+            alert(`Here is the quotient of the two numbers: ${firstNum} / ${secondNum} = ` + firstNum / secondNum)
+            alert('Thanks for your time!');
+            }
+            else {
+                alert('Seems you are not interested in what we are doing now. \nNo problem. \nBye!');
+                alert('Game over!');
+            }
+        }
+    </script>
+</body>
+</html>
